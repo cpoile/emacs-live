@@ -144,10 +144,10 @@
     live-version))
 
 
-;; Load `~/.emacs-live.el`. This allows you to override variables such
+;; Load `~/.emacs.d/.emacs-live.el`. This allows you to override variables such
 ;; as live-packs (allowing you to specify pack loading order)
 ;; Does not load if running in safe mode
-(let* ((pack-file (concat (file-name-as-directory "~") ".emacs-live.el")))
+(let* ((pack-file (concat (file-name-as-directory "~") "/.emacs.d/.emacs-live.el")))
   (if (and (file-exists-p pack-file) (not live-safe-modep))
       (load-file pack-file)))
 
