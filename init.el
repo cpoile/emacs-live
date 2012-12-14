@@ -202,3 +202,19 @@
 
 (if (not live-disable-zone)
     (add-hook 'term-setup-hook 'zone))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes (quote ("d7d93e97f7d5cfc158734a40c672391671800a5bae8a02e9730e88312defbbb2" default)))
+ '(sclang-auto-scroll-post-buffer t)
+ '(sclang-eval-line-forward nil)
+ '(sclang-help-path (quote ("/Applications/SuperCollider/Help")))
+ '(sclang-runtime-directory "~/.sclang/"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -115,3 +115,12 @@
 [submodule "packs/dev/power-pack/vendor/submodules/multiple-cursors"]
 	path = packs/dev/power-pack/vendor/submodules/multiple-cursors
 	url = git://github.com/magnars/multiple-cursors.el.git
+[submodule "packs/dev/colour-pack/vendor/submodules/zenburn-theme"]
+	path = packs/dev/colour-pack/vendor/submodules/zenburn-theme
+	url = https://github.com/bbatsov/zenburn-emacs.git
+[submodule "themese/zenburn-theme"]
+	path = themese/zenburn-theme
+	url = https://github.com/bbatsov/zenburn-emacs.git
+[submodule "themes/zenburn-theme"]
+	path = themes/zenburn-theme
+	url = https://github.com/bbatsov/zenburn-emacs.git

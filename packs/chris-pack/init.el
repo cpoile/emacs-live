@@ -6,10 +6,11 @@
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
-(require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(package-initialize)
+;;;;;;;;;;;;;;
+; Themes
+;;;;;;;;;;;;;;
 
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/zenburn-theme/")
 (load-theme 'zenburn t)
 
 (add-hook 'after-init-hook '(lambda () (w32-send-sys-command ?\xf030)))
